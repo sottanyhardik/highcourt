@@ -1,0 +1,222 @@
+
+	<html>
+	<head><title>aaa</title></head>
+	<body>
+
+
+	<form action="rspaging.asp" method="post" id =form4 name=form4><input type="hidden" name="nccharset" value="de614182">
+
+		<table width=100%>
+<tr><td align=left width=50%>
+ <b>searched for :  <b style="color :blue;">  bank </b>
+ <td align=right width=30%><b> page &nbsp; </b><b style="color :blue;">1</b>
+  <b>&nbsp; of &nbsp; <b style="color :blue;"> 9 </b></td></tr></table>
+
+
+
+<table width=100% border=1>
+<tr>
+<td align=right valign=top width=10% ><font color="black" face="" size=4 ><strong>
+1.</strong></font>
+<td  align=left width=80% >
+ <font color="brown" face="" size=4>
+
+
+
+ <a href="rspaging.asp?tfnm=187305 " style="text-decoration: none" >
+
+
+
+</strong></font>
+<font color="blue" face="" size=4.5 ><strong>act name : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    the government savings banks act, 1873*1                                                                                                                                                                                                                                                                   
+
+<br>
+  <font color="blue" face="" size=4.5 ><strong>act title : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    act no. 5 of 1873                                                                                                                                    
+
+
+<br>
+<br>
+  <font color="blue" face="" size=4.5 ><strong>enactment date : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    [28th january, 1873.]                            
+
+<br>
+<a href="fullact1.asp?tfnm=187305 "
+  <font color="blue" face="" size=4.5 ><strong>download full act </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+
+</tr></table>
+
+		
+
+
+<table width=100% border=1>
+<tr>
+<td align=right valign=top width=10% ><font color="black" face="" size=4 ><strong>
+2.</strong></font>
+<td  align=left width=80% >
+ <font color="brown" face="" size=4>
+
+
+
+ <a href="rspaging.asp?tfnm=189118 " style="text-decoration: none" >
+
+
+
+</strong></font>
+<font color="blue" face="" size=4.5 ><strong>act name : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+   the bankers' books evidence act, 1891                                                                                                                                                                                                                                                                       
+
+<br>
+  <font color="blue" face="" size=4.5 ><strong>act title : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+   act no.  18 of 1891                                                                                                                                   
+
+
+<br>
+<br>
+  <font color="blue" face="" size=4.5 ><strong>enactment date : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+   [1st october, 1891.]                              
+
+<br>
+<a href="fullact1.asp?tfnm=189118 "
+  <font color="blue" face="" size=4.5 ><strong>download full act </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+
+</tr></table>
+
+		
+
+
+<table width=100% border=1>
+<tr>
+<td align=right valign=top width=10% ><font color="black" face="" size=4 ><strong>
+3.</strong></font>
+<td  align=left width=80% >
+ <font color="brown" face="" size=4>
+
+
+
+ <a href="rspaging.asp?tfnm=193402 " style="text-decoration: none" >
+
+
+
+</strong></font>
+<font color="blue" face="" size=4.5 ><strong>act name : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    the reserve bank of india act, 1934                                                                                                                                                                                                                                                                        
+
+<br>
+  <font color="blue" face="" size=4.5 ><strong>act title : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    act no. 2 of 1934 1*                                                                                                                                 
+
+
+<br>
+<br>
+  <font color="blue" face="" size=4.5 ><strong>enactment date : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    [6th march, 1934.]                               
+
+<br>
+<a href="fullact1.asp?tfnm=193402 "
+  <font color="blue" face="" size=4.5 ><strong>download full act </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+
+</tr></table>
+
+		
+
+
+<table width=100% border=1>
+<tr>
+<td align=right valign=top width=10% ><font color="black" face="" size=4 ><strong>
+4.</strong></font>
+<td  align=left width=80% >
+ <font color="brown" face="" size=4>
+
+
+
+ <a href="rspaging.asp?tfnm=194862 " style="text-decoration: none" >
+
+
+
+</strong></font>
+<font color="blue" face="" size=4.5 ><strong>act name : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    the reserve bank (transfer to public ownership) act, 1948                                                                                                                                                                                                                                                  
+
+<br>
+  <font color="blue" face="" size=4.5 ><strong>act title : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    act no. 62 of 1948                                                                                                                                   
+
+
+<br>
+<br>
+  <font color="blue" face="" size=4.5 ><strong>enactment date : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    [23rd september 1948.]                           
+
+<br>
+<a href="fullact1.asp?tfnm=194862 "
+  <font color="blue" face="" size=4.5 ><strong>download full act </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+
+</tr></table>
+
+		
+
+
+<table width=100% border=1>
+<tr>
+<td align=right valign=top width=10% ><font color="black" face="" size=4 ><strong>
+5.</strong></font>
+<td  align=left width=80% >
+ <font color="brown" face="" size=4>
+
+
+
+ <a href="rspaging.asp?tfnm=194910 " style="text-decoration: none" >
+
+
+
+</strong></font>
+<font color="blue" face="" size=4.5 ><strong>act name : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    the banking regulation act, 1949                                                                                                                                                                                                                                                                           
+
+<br>
+  <font color="blue" face="" size=4.5 ><strong>act title : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    act no. 10 of 1949  *1                                                                                                                               
+
+
+<br>
+<br>
+  <font color="blue" face="" size=4.5 ><strong>enactment date : </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+    [10th march, 1949.]     w                        
+
+<br>
+<a href="fullact1.asp?tfnm=194910 "
+  <font color="blue" face="" size=4.5 ><strong>download full act </strong></font> &nbsp;&nbsp;
+<font color="green" face="" size=4 ><strong>
+
+</tr></table>
+
+		
+		<br>
+<br>
+<a href="qryactshtitle1.asp?txtact=bank&page=2">next page</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="qryactshtitle1.asp?txtact=bank&page=9">last page</a><br><br><p><a href="sht.asp">back</a>
+	</form>
+
+
+	</body>
+	</html>

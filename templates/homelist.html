@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- Page Content -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Court List
+      </h1>
+    </div>
+    <div class="col-xs-2">
+      <ul class="nav nav-pills nav-stacked nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#home" aria-controls="home" role="tab" data-toggle="tab">All HighCourt List
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#act" aria-controls="act" role="tab" data-toggle="tab">Acts Search
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#citation" aria-controls="citation" role="tab" data-toggle="tab">Citation Search
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#judgement" aria-controls="judgement" role="tab" data-toggle="tab">Judgement Search
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#tribunal" aria-controls="tribunal" role="tab" data-toggle="tab">Tribunal Search
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-10">
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
+          {% for object in court_list %}
+          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+            <a class="#" href="#">
+              <img class="img-responsive img-thumbnail" src="{{ object.image.url }}" alt="{{ object.name }} judgements">
+            </a>
+            <h3>{{ object.name }}
+            </h3>
+          </div>
+          {% endfor %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="act">
+            {% include 'act_form.html' %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="citation">
+            {% include 'citation_form.html' %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="judgement">
+            {% include 'advance_search_form.html' %}
+        </div>
+        <div role="tabpanel" class="tab-pane" id="tribunal">...
+            {% include 'tribunal_search.html' %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+{% endblock %}
