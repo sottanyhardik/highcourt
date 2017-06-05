@@ -1,4 +1,5 @@
 # Create your views here.
+from django.http import JsonResponse
 from django.views.generic import ListView
 
 from data.models import CourtModel, PricingPackage
@@ -22,4 +23,11 @@ class CourtListView(ListView):
     def get_context_data(self, **kwargs):
         context = super(CourtListView, self).get_context_data(**kwargs)
         context['court_list'] = CourtModel.objects.all()
+        courts = CourtModel.objects.all().values('name')
+        context['court_data_list'] = [data['name'] for data in courts]
         return context
+
+
+def court_data(request):
+    courts = CourtModel.objects.all().values('name')
+    return JsonResponse({'courts': [data['name'] for data in courts]})
