@@ -6,6 +6,7 @@ from . import views
 
 urlpatterns = [
     url(r'courts/$', views.CourtListView.as_view(), name='courts_list'),
+    url(r'citation/judgement/$', views.CitationJudgementDisplayView.as_view(), name='judgement'),
     url(r'search/$', views.court_data, name='search'),
     url(r'^$', views.IndexView.as_view(), name='index'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

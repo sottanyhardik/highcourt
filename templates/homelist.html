@@ -10,7 +10,7 @@
     </div>
     <div class="col-xs-2">
       <ul class="nav nav-pills nav-stacked nav-tabs" role="tablist">
-        <li role="presentation" class="active">
+        <li role="presentation" {% if not display_judgement %}class="active"{% endif %}>
           <a href="#home" aria-controls="home" role="tab" data-toggle="tab">All HighCourt List
           </a>
         </li>
@@ -30,11 +30,15 @@
           <a href="#tribunal" aria-controls="tribunal" role="tab" data-toggle="tab">Tribunal Search
           </a>
         </li>
+        <li role="presentation">
+          <a href="#display_judgement" class="{% if not display_judgement %}hidden{% else %}active{% endif %}" aria-controls="display_judgement" role="tab" data-toggle="tab">Judgement Display
+          </a>
+        </li>
       </ul>
     </div>
     <div class="col-xs-10">
       <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active" id="home">
+        <div role="tabpanel" class="tab-pane {% if not display_judgement %}active{% endif %}" id="home">
           {% for object in court_list %}
           <div class="col-lg-4 col-md-4 col-xs-6 thumb">
             <a class="#" href="#">
@@ -54,12 +58,30 @@
         <div role="tabpanel" class="tab-pane" id="judgement">
             {% include 'advance_search_form.html' %}
         </div>
-        <div role="tabpanel" class="tab-pane" id="tribunal">...
+        <div role="tabpanel" class="tab-pane" id="tribunal">
             {% include 'tribunal_search.html' %}
         </div>
+      {% if display_judgement %}
+        <div role="tabpanel" class="tab-pane active" id="display_judgement">
+            {% include 'citation_judgement.html' %}
+        </div>
+      {% endif %}
       </div>
     </div>
   </div>
 </div>
 <hr>
+
+{% endblock %}
+{% block page_js %}
+    <script>
+    $(document).ready(function(){
+
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+
+
+    });
+</script>
 {% endblock %}

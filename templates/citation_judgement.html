@@ -1,0 +1,57 @@
+<!-- Page Content -->
+<h1 class="title-divider">
+    <span>Judgement</span>
+</h1>
+<div class="panel panel-default">
+{% if status %}
+<!-- Default panel contents -->
+{% if petitioner and respondent %}
+    <div class="panel-heading">PETITIONER vs RESPONDENT</div>
+<div class="panel-body">
+    {{ petitioner }}  vs. {{ respondent }}
+</div>
+{% endif %}
+{% if date_of_judgement %}
+
+<div class="panel-heading">DATE OF JUDGMENT</div>
+<div class="panel-body">
+    {{ date_of_judgement }}
+</div>
+{% endif %}
+{% if bench %}
+
+<div class="panel-heading">BENCH</div>
+<div class="panel-body">
+    {{ bench }}
+</div>
+{% endif %}
+{% if citation %}
+    <div class="panel-heading">CITATION</div>
+    <div class="panel-body">
+     {{ citation }}
+    </div>
+{% endif %}
+{% if act %}
+  <div class="panel-heading">ACT</div>
+<div class="panel-body">
+{{ act }}
+</div>
+{% endif %}
+{% if headnote %}
+
+  <div class="panel-heading">HEADNOTE</div>
+<div class="panel-body">
+{{ headnote }}
+</div>
+{% endif %}
+{% if judgment %}
+
+  <div class="panel-heading">Judgement</div>
+      <div class="panel-body">
+            {{ judgment }}
+      </div>
+ </div>
+{% endif %}
+    {% else %}
+  <div class="panel-heading"> No Judgement Found</div>
+    {% endif %}
