@@ -28,6 +28,7 @@ class CourtListView(ListView):
         courts = CourtModel.objects.all().values('name')
         context['court_data_list'] = [data['name'] for data in courts]
         context['citation_range'] = range(1950, 2018)
+        context['act_year_range'] = range(1834, 2018)
         context['citation_volume'] = range(0, 201)
         return context
 

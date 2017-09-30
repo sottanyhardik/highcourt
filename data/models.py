@@ -24,6 +24,9 @@ class CourtModel(models.Model):
         resize_file(self.image.url)
         super(CourtModel, self).save(*args, **kwargs)
 
+    def __str__(self):
+        return "name {0}".format(self.name)
+
 
 class PricingPackage(models.Model):
     name = models.CharField(max_length=255, unique=True)
@@ -35,3 +38,6 @@ class PricingPackage(models.Model):
         if not self.slug:
             self.slug = slugify(self.name)
         super(PricingPackage, self).save(*args, **kwargs)
+
+    def __str__(self):
+        return "name {0} --> price {1}".format(self.name, self.price)
